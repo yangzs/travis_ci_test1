@@ -23,6 +23,8 @@ public class MainActivityTest extends
     }
   
     public void testChangeText() {
-
+		   
+		   
+		   
     }
 }
