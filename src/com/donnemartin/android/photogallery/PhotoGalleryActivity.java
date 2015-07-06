@@ -17,6 +17,7 @@ public class PhotoGalleryActivity extends SingleFragmentActivity {
 
     @Override
     public void onNewIntent(Intent intent) {
+    	Log.i(TAG, "PhotoGalleryActivity onNewIntent is run.");
         // Search is implemented using the singleTop launch mode.  Instead of
         // launching a new activity, the search intent will go to this
         // PhotoGalleryActivity on top of the back stack
